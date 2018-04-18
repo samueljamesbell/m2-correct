@@ -13,7 +13,7 @@ file format.
 pipenv install
 ```
 
-## Usage
+## Usage
 To apply m2-format corrections, run:
 ```
 pipenv run python correct.py foo.m2
@@ -21,7 +21,7 @@ pipenv run python correct.py foo.m2
 where `foo.m2` is your m2 file. This will print all sentences, with their
 correction annotations applied, to stdout.
 
-## License
+## License
 See `LICENSE`.
 
 The code in `parser.py` is taken from the [MaxMatch Scorer](https://github.com/nusnlp/m2scorer/), which is GNU GPL v2.0 licensed.
